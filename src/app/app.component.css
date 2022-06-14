@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+.conteudo {
+  width: 375px;
+  height: 100vh;
+  background-color: hsl(222, 26%, 31%);
+  color: white;
+  font-family: "League Spartan", sans-serif;
+}
+.cabecalho {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 33%;
+  margin-right: 4%;
+  width: 100%;
+}
+.calc span {
+  font-size: 24px;
+  position: relative;
+  left: 11%;
+}
+.themeNumeros {
+  display: flex;
+  gap: 28%;
+  justify-content: center;
+  align-items: center;
+}
+.theme {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 12px;
+}
+.numeros span {
+  font-size: 10px;
+}
+.numeros {
+  display: flex;
+  gap: 14px;
+  position: relative;
+  left: 3px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.botao {
+  border: 1px solid hsl(6, 63%, 50%);
+  width: 12px;
+  min-height: 12px;
+  border-radius: 50%;
+  background: hsl(6, 63%, 50%);
+  z-index: 1;
+  position: relative;
+  top: 6px;
+}
+.fundoBotao {
+  border: 0px solid;
+  width: 60px;
+  height: 23px;
+  position: relative;
+  top: -12px;
+  border-radius: 39px;
+  left: -5px;
+  background: hsl(223, 31%, 20%);
+}
+.display {
+  display: flex;
+  justify-content: center;
+}
+.display-conteudo {
+  width: 335px;
+  height: 89px;
+  background: hsl(223, 31%, 20%);
+  border-radius: 10px;
+}
+.table {
+  border-radius: 10px;
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background: hsl(223, 31%, 20%);
+  border-radius: 10px;
+}
+.linha {
+  display: flex;
+}
+.btn {
+  width: 55px;
+  height: 55px;
+  background: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  border-radius: 6px;
+  font-size: 32px;
+  border-bottom: 4px solid hsl(0deg 1% 67%);
+  cursor: pointer;
+}
+.btn-del {
+  font-size: 16px;
+  background: hsl(225, 21%, 49%);
+  color: white;
+  border-bottom: 4px solid hsl(224, 28%, 35%);
+  cursor: pointer;
+}
+.btnMaior {
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.bnt-reset {
+  width: 128px;
+  height: 55px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: hsl(225, 21%, 49%);
+  border-radius: 7px;
+  border-bottom: 4px solid hsl(224, 28%, 35%);
+  cursor: pointer;
+}
+.bnt-igual {
+  width: 128px;
+  height: 55px;
+  font-size: 16px;
+  background: hsl(6, 63%, 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  border-bottom: 4px solid hsl(6, 70%, 34%);
+  cursor: pointer;
+}
