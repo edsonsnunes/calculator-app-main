@@ -1,4 +1,4 @@
-<div class="conteudo">
+<div [ngClass]="tema" class="conteudo">
   <div class="cabecalho">
     <div class="calc">
       <span>calc</span>
@@ -14,16 +14,15 @@
           <span>3</span>
         </div>
         <div class="checkbox">
-          <div class="botao"></div>
+          <div (click)="mudarTema()" class="botao"></div>
           <div class="fundoBotao"></div>
         </div>
       </div>
-
     </div>
   </div>
   <div class="display">
     <div class="display-conteudo">
-
+      <span></span>
     </div>
   </div>
   <table class="table">

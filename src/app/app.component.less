@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+.conteudo {
+  width: 375px;
+  height: 100vh;
+  font-family: "League Spartan", sans-serif;
+}
+.cabecalho {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  gap: 33%;
+  margin-right: 4%;
+  width: 100%;
+}
+.tema-1 {
+  &.conteudo {
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+  }
+  .botao {
+    border: 1px solid hsl(6, 63%, 50%);
+    background: hsl(6, 63%, 50%);
+  }
+  .fundoBotao {
+    background: hsl(223, 31%, 20%);
+  }
+  .display-conteudo {
+    background: hsl(223, 31%, 20%);
+  }
+  tbody {
+    background: hsl(223, 31%, 20%);
+  }
+  .btn {
+    background: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%);
+  }
+  .btn-del {
+    background: hsl(225, 21%, 49%);
+    color: white;
+    border-bottom: 4px solid hsl(224, 28%, 35%);
+  }
+  .bnt-reset {
+    background: hsl(225, 21%, 49%);
+    border-bottom: 4px solid hsl(224, 28%, 35%);
+  }
+  .bnt-igual {
+    background: hsl(6, 63%, 50%);
+    border-bottom: 4px solid hsl(6, 70%, 34%);
+  }
+}
+.tema-2 {
+  &.conteudo {
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(221, 16%, 20%);
+  }
+  .botao {
+    border: 1px solid hsl(25, 98%, 40%);
+    background: hsl(25, 98%, 40%);
+    position: relative;
+    left: 17px;
+  }
+  .fundoBotao {
+    background: hsl(0, 5%, 81%);
+  }
+  .display-conteudo {
+    background: hsl(0deg 0% 96% / 88%);
+  }
+  tbody {
+    background: hsl(0, 5%, 81%);
+  }
+  .btn {
+    background: hsl(45, 7%, 89%);
+    color: hsl(221deg 16% 20%);
+  }
+  .btn-del {
+    background: hsl(185, 42%, 37%);
+    color: white;
+    border-bottom: 4px solid hsl(185, 58%, 25%);
+  }
+  .bnt-reset {
+    background: hsl(185, 42%, 37%);
+    color: white;
+    border-bottom: 4px solid hsl(185, 58%, 25%);
+  }
+  .bnt-igual {
+    background: hsl(25, 98%, 40%);
+    color: white;
+    border-bottom: 4px solid hsl(25, 99%, 27%);
+  }
+}
+.tema-3 {
+  &.conteudo {
+    background-color: hsl(268, 75%, 9%);
+    color: hsla(61, 100%, 50%, 0.87);
+  }
+  .botao {
+    border: 1px solid hsl(176, 100%, 44%);
+    background: hsl(176, 100%, 44%);
+    position: relative;
+    left: 35px;
+  }
+  .fundoBotao {
+    background: hsl(268, 71%, 12%);
+  }
+  .display-conteudo {
+    background: hsl(268, 71%, 12%);
+  }
+  tbody {
+    background: hsl(268, 71%, 12%);
+  }
+  .btn {
+    background: hsl(268deg 44% 27%);
+    color: hsl(61deg 100% 50% / 87%);
+    border-bottom: 4px solid hsl(285, 91%, 52%);
+  }
+  .btn-del {
+    background: hsl(281, 89%, 26%);
+    color: white;
+    border-bottom: 4px solid hsl(285, 91%, 52%);
+  }
+  .bnt-reset {
+    background: hsl(281, 89%, 26%);
+    color: white;
+    border-bottom: 4px solid hsl(285, 91%, 52%);
+  }
+  .bnt-igual {
+    background: hsl(176, 100%, 44%);
+    color: black;
+    border-bottom: 4px solid hsl(177, 92%, 70%);
+  }
+}
+.calc span {
+  font-size: 32px;
+  position: relative;
+  left: 11%;
+}
+.themeNumeros {
+  display: flex;
+  gap: 28%;
+  justify-content: center;
+  align-items: center;
+}
+.theme {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 12px;
+}
+.numeros span {
+  font-size: 10px;
+}
+.numeros {
+  display: flex;
+  gap: 14px;
+  position: relative;
+  left: 3px;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+}
+.numerosBotao {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.botao {
+  width: 12px;
+  min-height: 12px;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+  top: 6px;
+  cursor: pointer;
+}
+.fundoBotao {
+  border: 0px solid;
+  width: 60px;
+  height: 23px;
+  position: relative;
+  top: -12px;
+  border-radius: 39px;
+  left: -5px;
+  cursor: pointer;
+}
+.display {
+  display: flex;
+  justify-content: center;
+}
+.display-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 335px;
+  height: 89px;
+  border-radius: 10px;
+}
+.display-conteudo span {
+  margin-right: 23px;
+  font-size: 32px;
+}
+.table {
+  border-radius: 10px;
+  margin-top: 6%;
+  display: flex;
+  justify-content: center;
+}
+tbody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  border-radius: 10px;
+}
+.linha {
+  display: flex;
+}
+.btn {
+  width: 55px;
+  height: 55px;
+  background: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  border-radius: 6px;
+  font-size: 32px;
+  border-bottom: 4px solid hsl(0deg 1% 67%);
+  cursor: pointer;
+}
+.btn-del {
+  font-size: 16px;
+  cursor: pointer;
+}
+.btnMaior {
+  display: flex;
+  gap: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.bnt-reset {
+  width: 128px;
+  height: 55px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.bnt-igual {
+  width: 128px;
+  height: 55px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
