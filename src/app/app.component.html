@@ -5,7 +5,7 @@
     </div>
     <div class="themeNumeros">
       <div class="theme">
-        <span>THEME</span>
+        <span></span>
       </div>
       <div class="numerosBotao">
         <div class="numeros">
@@ -22,38 +22,38 @@
   </div>
   <div class="display">
     <div class="display-conteudo">
-      <span></span>
+      <input [(ngModel)]="valor">
     </div>
   </div>
   <table class="table">
     <tbody>
       <tr class="linha">
-        <td class="btn">7</td>
-        <td class="btn">8</td>
-        <td class="btn">9</td>
-        <td class="btn btn-del">DEL</td>
+        <td class="btn" (click)="add('7')">7</td>
+        <td class="btn" (click)="add('8')">8</td>
+        <td class="btn" (click)="add('9')">9</td>
+        <td class="btn btn-del" (click)="back('num')">DEL</td>
       </tr>
       <tr class="linha">
-        <td class="btn">4</td>
-        <td class="btn">5</td>
-        <td class="btn">6</td>
-        <td class="btn">+</td>
+        <td class="btn" (click)="add('4')">4</td>
+        <td class="btn" (click)="add('5')">5</td>
+        <td class="btn" (click)="add('6')">6</td>
+        <td class="btn" (click)="add('+')">+</td>
       </tr>
       <tr class="linha">
-        <td class="btn">1</td>
-        <td class="btn">2</td>
-        <td class="btn">3</td>
-        <td class="btn">-</td>
+        <td class="btn" (click)="add('1')">1</td>
+        <td class="btn" (click)="add('2')">2</td>
+        <td class="btn" (click)="add('3')">3</td>
+        <td class="btn" (click)="add('-')"> - </td>
       </tr>
       <tr class="linha">
-        <td class="btn">.</td>
-        <td class="btn">0</td>
-        <td class="btn">/</td>
-        <td class="btn">x</td>
+        <td class="btn" (click)="add('.')">.</td>
+        <td class="btn" (click)="add('0')">0</td>
+        <td class="btn" (click)="add('/')">/</td>
+        <td class="btn" (click)="add('*')">x</td>
       </tr>
       <tr class="linha  btnMaior">
-        <td colspan="2" class="bnt-reset">RESET</td>
-        <td colspan="2" class="bnt-igual">=</td>
+        <td colspan="2" class="bnt-reset" (click)="resetar('')">RESET</td>
+        <td colspan="2" class="bnt-igual" (click)="igual()">=</td>
       </tr>
     </tbody>
   </table>
