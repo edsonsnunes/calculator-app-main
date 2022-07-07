@@ -72,7 +72,7 @@
   }
   input {
     background: hsla(0, 0%, 96%, 0.88);
-    color: black;
+    color: hsl(221, 16%, 20%);
   }
   tbody {
     background: hsl(0, 5%, 81%);
@@ -116,7 +116,7 @@
   }
   input {
     background: hsl(268, 71%, 12%);
-    color: rgb(252, 249, 249);
+    color: hsla(61, 100%, 50%, 0.87);
   }
   tbody {
     background: hsl(268, 71%, 12%);
@@ -277,4 +277,95 @@ tbody {
   justify-content: center;
   border-radius: 7px;
   cursor: pointer;
+}
+
+@media (min-width: 380px) and (max-width: 1439px) {
+  .tema-1 {
+    &.conteudo {
+      background-color: hsl(222, 26%, 31%);
+      color: white;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  .tema-2 {
+    &.conteudo {
+      background-color: hsl(0, 0%, 90%);
+      color: hsl(221, 16%, 20%);
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  .tema-3 {
+    &.conteudo {
+      background-color: hsl(268, 75%, 9%);
+      color: hsla(61, 100%, 50%, 0.87);
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  .cabecalho {
+    justify-content: space-evenly;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .tema-1 {
+    &.conteudo {
+      background-color: hsl(222, 26%, 31%);
+      color: white;
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  .tema-2 {
+    &.conteudo {
+      background-color: hsl(0, 0%, 90%);
+      color: hsl(221, 16%, 20%);
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  .tema-3 {
+    &.conteudo {
+      background-color: hsl(268, 75%, 9%);
+      color: hsla(61, 100%, 50%, 0.87);
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+  .cabecalho {
+    align-items: center;
+    justify-content: center;
+    gap: 23%;
+    margin-right: 4%;
+    width: 100%;
+  }
+  .display-conteudo {
+    width: 32%;
+    height: 104px;
+  }
+  .table {
+    margin-top: 2%;
+  }
+  tbody {
+    width: 29%;
+  }
+  .btn {
+    width: 88px;
+    height: 53px;
+  }
+  .linha {
+    gap: 10px;
+  }
+  .btnMaior {
+    gap: 25px;
+  }
+  .bnt-reset {
+    width: 205px;
+  }
+  .bnt-igual {
+    width: 205px;
+  }
 }

@@ -38,6 +38,6 @@ export class AppComponent {
   }
   public igual() {
     let resultado = eval(this.valor);
-    this.valor = resultado;
+    this.valor = resultado.toFixed(2);
   }
 }
